@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url(./imgs/blurcolor@2x.png)no-repeat no-repeat;
+    background-size: cover;
+}
+
+.header-banner{
+    width:100%;
+}
+
+.header h2{
+    height: 110px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 37px;
+}
+ /*任务3 主体*/
+.content{
+    padding-bottom: 200px;
+}
+
+.content .content-nav{
+    padding: 48px;
+}
+
+.content .content-nav .item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-nav .item+.item{
+    margin-top: 48px;
+}
+
+.content .content-nav .item .unit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .content-nav .item span{
+    margin-top: 20px;
+    color: rgba(0,0,0,0.65);
+    text-align:center;
+    font-size: 28px;
+}
+
+.content .content-goods{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content .content-goods .item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-goods .item .unit:first-child{
+    margin-bottom: 22px;
+}
+
+.content .content-goods .item .unit{
+    width: 324px;
+    height: 432px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-redius: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 24px;
+}
+
+.content .content-goods .item .unit img{
+    display: block;
+}
+
+.content .content-goods .item .unit p:first-of-type{
+    margin-top: 24px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.content .content-goods .item .unit p:last-of-type{
+    margin-top: 12px;
+    color: #3642FF;
+}
+
+.content .content-goods .item .unit p{
+    font-size: 28px;
+}
+
+/* 底部 */
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.footer div p {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+}
+
+.footer div.active p {
+    color: #3642FF;
+}
